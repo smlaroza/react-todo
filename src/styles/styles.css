@@ -64,3 +64,19 @@ li {
 .countItem {
   font-family: "Raleway", sans-serif;
 }
+
+.removeToDoTask {
+  border: 1px solid gray;
+  border-radius: 50%;
+  outline: none;
+  color: transparent;
+  width: 25px;
+}
+
+.checkmark {
+  color: green;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 25px;
+  text-align: center;
+}

@@ -25,6 +25,15 @@ export default function(props) {
           <div key={"item" + i}>
             <li className="containList">
               <div
+                id="removeToDoTask"
+                className={
+                  item.active === false ? "removeToDoTask" : "checkmark"
+                }
+                onClick={(e) => complete(item.id, item.active)}
+              >
+                &#10004;
+              </div>
+              <div
                 id="words"
                 className={item.active === false ? "complete" : "checked"}
                 onClick={(e) => complete(item.id, item.active)}

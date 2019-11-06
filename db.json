@@ -1,3 +1,19 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "eat",
+      "active": false,
+      "id": 1
+    },
+    {
+      "name": "sleep",
+      "active": false,
+      "id": 2
+    },
+    {
+      "name": "drink beer",
+      "active": false,
+      "id": 3
+    }
+  ]
 }
