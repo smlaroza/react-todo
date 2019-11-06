@@ -55,6 +55,7 @@ li {
   justify-content: space-between;
   border: 1px solid gray;
   font-family: "Raleway", sans-serif;
+  padding: 10px 10px;
 }
 
 .checked {
@@ -79,4 +80,8 @@ li {
   border-radius: 50%;
   width: 25px;
   text-align: center;
+}
+
+.delete {
+  font-weight: bold;
 }

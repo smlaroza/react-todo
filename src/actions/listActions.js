@@ -1,5 +1,4 @@
 import Axios from "axios"
-import { AST_ConciseMethod } from "terser"
 
 export function addItem(item) {
   return (dispatch) => {
