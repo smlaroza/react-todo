@@ -42,7 +42,7 @@ export default function(props) {
           </div>
         ))}
       </ul>
-      <p>Item Count: {items.length}</p>
+      <p className="countItem">Item Count: {items.length}</p>
     </div>
   )
 }

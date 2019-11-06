@@ -17,6 +17,7 @@ export default function(props) {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
+        placeholder="&#8964; What needs to be done?"
         id="item"
         name="item"
         value={item}
