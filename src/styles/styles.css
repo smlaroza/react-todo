@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+.main {
+  margin: auto;
+  width: 500px;
+  background: purple;
+}
+
+input {
+  margin: auto;
+  width: 500px;
+  font-size: 20px;
+}
+
+p {
+  text-align: right;
+}
+
+form {
+  margin: auto;
+  width: 500px;
+}
+
+li {
+  list-style: none;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.containList {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
+
+.checked {
+  text-decoration: line-through;
+}
